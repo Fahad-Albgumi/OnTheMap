@@ -8,11 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		29444911237AFD64003E2C94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29444910237AFD64003E2C94 /* AppDelegate.swift */; };
-		29444913237AFD64003E2C94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29444912237AFD64003E2C94 /* ViewController.swift */; };
+		29444913237AFD64003E2C94 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29444912237AFD64003E2C94 /* LoginViewController.swift */; };
 		29444916237AFD64003E2C94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29444914237AFD64003E2C94 /* Main.storyboard */; };
 		29444918237AFD6A003E2C94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29444917237AFD6A003E2C94 /* Assets.xcassets */; };
 		2944491B237AFD6A003E2C94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29444919237AFD6A003E2C94 /* LaunchScreen.storyboard */; };
 		29444926237AFD6A003E2C94 /* OnTheMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29444925237AFD6A003E2C94 /* OnTheMapTests.swift */; };
+		29444934237B0060003E2C94 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29444933237B0060003E2C94 /* Default-568h@2x.png */; };
+		29444938237D302C003E2C94 /* accountInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29444937237D302C003E2C94 /* accountInfo.swift */; };
+		2944493B237D319E003E2C94 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2944493A237D319E003E2C94 /* Api.swift */; };
+		2944493D237EE926003E2C94 /* StudentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2944493C237EE925003E2C94 /* StudentLocation.swift */; };
+		2944493F237EF860003E2C94 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2944493E237EF860003E2C94 /* Constants.swift */; };
+		29444941237F47F2003E2C94 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29444940237F47F2003E2C94 /* Parser.swift */; };
+		29444945237F496A003E2C94 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29444944237F496A003E2C94 /* ContainerViewController.swift */; };
+		29444947237F4A6D003E2C94 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29444946237F4A6D003E2C94 /* MapViewController.swift */; };
+		29444949237F4B34003E2C94 /* TableVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29444948237F4B34003E2C94 /* TableVIewController.swift */; };
+		2944494B237F56EF003E2C94 /* LocationsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2944494A237F56EF003E2C94 /* LocationsData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +38,7 @@
 /* Begin PBXFileReference section */
 		2944490D237AFD64003E2C94 /* OnTheMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnTheMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29444910237AFD64003E2C94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		29444912237AFD64003E2C94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29444912237AFD64003E2C94 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		29444915237AFD64003E2C94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		29444917237AFD6A003E2C94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2944491A237AFD6A003E2C94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +46,16 @@
 		29444921237AFD6A003E2C94 /* OnTheMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnTheMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29444925237AFD6A003E2C94 /* OnTheMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnTheMapTests.swift; sourceTree = "<group>"; };
 		29444927237AFD6A003E2C94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29444933237B0060003E2C94 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		29444937237D302C003E2C94 /* accountInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = accountInfo.swift; sourceTree = "<group>"; };
+		2944493A237D319E003E2C94 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		2944493C237EE925003E2C94 /* StudentLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLocation.swift; sourceTree = "<group>"; };
+		2944493E237EF860003E2C94 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		29444940237F47F2003E2C94 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		29444944237F496A003E2C94 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		29444946237F4A6D003E2C94 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		29444948237F4B34003E2C94 /* TableVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVIewController.swift; sourceTree = "<group>"; };
+		2944494A237F56EF003E2C94 /* LocationsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +79,7 @@
 		29444904237AFD64003E2C94 = {
 			isa = PBXGroup;
 			children = (
+				29444933237B0060003E2C94 /* Default-568h@2x.png */,
 				2944490F237AFD64003E2C94 /* OnTheMap */,
 				29444924237AFD6A003E2C94 /* OnTheMapTests */,
 				2944490E237AFD64003E2C94 /* Products */,
@@ -77,12 +98,10 @@
 		2944490F237AFD64003E2C94 /* OnTheMap */ = {
 			isa = PBXGroup;
 			children = (
-				29444910237AFD64003E2C94 /* AppDelegate.swift */,
-				29444912237AFD64003E2C94 /* ViewController.swift */,
-				29444914237AFD64003E2C94 /* Main.storyboard */,
-				29444917237AFD6A003E2C94 /* Assets.xcassets */,
-				29444919237AFD6A003E2C94 /* LaunchScreen.storyboard */,
 				2944491C237AFD6A003E2C94 /* Info.plist */,
+				29444932237B002D003E2C94 /* Model */,
+				29444931237B000B003E2C94 /* View */,
+				29444930237AFFD4003E2C94 /* Controller */,
 			);
 			path = OnTheMap;
 			sourceTree = "<group>";
@@ -94,6 +113,50 @@
 				29444927237AFD6A003E2C94 /* Info.plist */,
 			);
 			path = OnTheMapTests;
+			sourceTree = "<group>";
+		};
+		29444930237AFFD4003E2C94 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				29444912237AFD64003E2C94 /* LoginViewController.swift */,
+				29444944237F496A003E2C94 /* ContainerViewController.swift */,
+				29444946237F4A6D003E2C94 /* MapViewController.swift */,
+				29444948237F4B34003E2C94 /* TableVIewController.swift */,
+			);
+			name = Controller;
+			path = ../Controller;
+			sourceTree = "<group>";
+		};
+		29444931237B000B003E2C94 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				29444914237AFD64003E2C94 /* Main.storyboard */,
+				29444917237AFD6A003E2C94 /* Assets.xcassets */,
+				29444919237AFD6A003E2C94 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		29444932237B002D003E2C94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2944494A237F56EF003E2C94 /* LocationsData.swift */,
+				2944493C237EE925003E2C94 /* StudentLocation.swift */,
+				29444910237AFD64003E2C94 /* AppDelegate.swift */,
+				29444937237D302C003E2C94 /* accountInfo.swift */,
+				29444939237D318C003E2C94 /* Network */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		29444939237D318C003E2C94 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2944493A237D319E003E2C94 /* Api.swift */,
+				2944493E237EF860003E2C94 /* Constants.swift */,
+				29444940237F47F2003E2C94 /* Parser.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2944491B237AFD6A003E2C94 /* LaunchScreen.storyboard in Resources */,
+				29444934237B0060003E2C94 /* Default-568h@2x.png in Resources */,
 				29444918237AFD6A003E2C94 /* Assets.xcassets in Resources */,
 				29444916237AFD64003E2C94 /* Main.storyboard in Resources */,
 			);
@@ -197,8 +261,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29444913237AFD64003E2C94 /* ViewController.swift in Sources */,
+				29444913237AFD64003E2C94 /* LoginViewController.swift in Sources */,
+				2944493D237EE926003E2C94 /* StudentLocation.swift in Sources */,
+				29444945237F496A003E2C94 /* ContainerViewController.swift in Sources */,
+				29444938237D302C003E2C94 /* accountInfo.swift in Sources */,
+				29444947237F4A6D003E2C94 /* MapViewController.swift in Sources */,
+				2944494B237F56EF003E2C94 /* LocationsData.swift in Sources */,
+				2944493B237D319E003E2C94 /* Api.swift in Sources */,
 				29444911237AFD64003E2C94 /* AppDelegate.swift in Sources */,
+				2944493F237EF860003E2C94 /* Constants.swift in Sources */,
+				29444941237F47F2003E2C94 /* Parser.swift in Sources */,
+				29444949237F4B34003E2C94 /* TableVIewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

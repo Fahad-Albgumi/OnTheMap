@@ -9,7 +9,6 @@
 import Foundation
 struct AccountInfo {
     var key: String?
-    var sessionId: String?
     var firstName: String?
     var lastName: String?
 }

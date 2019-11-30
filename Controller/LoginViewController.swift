@@ -16,7 +16,7 @@ class LoginViewController: UIViewController {
     @IBAction func run(_ sender: Any) {
         API.sessionPost(username: emailTextField.text!, password: passwordTextField.text!) { (errorString) in
             guard errorString == nil else{
-                print(errorString)
+                self.showAlert(title: "Something went wrong!", message: errorString!)
                 return
             }
             DispatchQueue.main.async {
@@ -26,3 +26,10 @@ class LoginViewController: UIViewController {
     }
 }
 
+extension UIViewController {
+    func showAlert(title: String, message: String) {
+        let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        alertController.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+        present(alertController, animated: true, completion: nil)
+    }
+}

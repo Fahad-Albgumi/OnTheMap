@@ -18,11 +18,15 @@
 		2944493B237D319E003E2C94 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2944493A237D319E003E2C94 /* Api.swift */; };
 		2944493D237EE926003E2C94 /* StudentLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2944493C237EE925003E2C94 /* StudentLocation.swift */; };
 		2944493F237EF860003E2C94 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2944493E237EF860003E2C94 /* Constants.swift */; };
-		29444941237F47F2003E2C94 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29444940237F47F2003E2C94 /* Parser.swift */; };
 		29444945237F496A003E2C94 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29444944237F496A003E2C94 /* ContainerViewController.swift */; };
 		29444947237F4A6D003E2C94 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29444946237F4A6D003E2C94 /* MapViewController.swift */; };
-		29444949237F4B34003E2C94 /* TableVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29444948237F4B34003E2C94 /* TableVIewController.swift */; };
 		2944494B237F56EF003E2C94 /* LocationsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2944494A237F56EF003E2C94 /* LocationsData.swift */; };
+		2944494D237FCBDB003E2C94 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2944494C237FCBDB003E2C94 /* TableViewController.swift */; };
+		2944494F23889878003E2C94 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2944494E23889878003E2C94 /* TableViewCell.swift */; };
+		2944498023911069003E2C94 /* AddLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2944497F23911068003E2C94 /* AddLocationViewController.swift */; };
+		294449832391148C003E2C94 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294449822391148C003E2C94 /* UIViewController.swift */; };
+		294449852391149D003E2C94 /* FirstResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294449842391149D003E2C94 /* FirstResponder.swift */; };
+		29444987239152B0003E2C94 /* ConfirmLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29444986239152B0003E2C94 /* ConfirmLocationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,11 +55,15 @@
 		2944493A237D319E003E2C94 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
 		2944493C237EE925003E2C94 /* StudentLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLocation.swift; sourceTree = "<group>"; };
 		2944493E237EF860003E2C94 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		29444940237F47F2003E2C94 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		29444944237F496A003E2C94 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		29444946237F4A6D003E2C94 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		29444948237F4B34003E2C94 /* TableVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableVIewController.swift; sourceTree = "<group>"; };
 		2944494A237F56EF003E2C94 /* LocationsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsData.swift; sourceTree = "<group>"; };
+		2944494C237FCBDB003E2C94 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2944494E23889878003E2C94 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		2944497F23911068003E2C94 /* AddLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationViewController.swift; sourceTree = "<group>"; };
+		294449822391148C003E2C94 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		294449842391149D003E2C94 /* FirstResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstResponder.swift; sourceTree = "<group>"; };
+		29444986239152B0003E2C94 /* ConfirmLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmLocationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +129,10 @@
 				29444912237AFD64003E2C94 /* LoginViewController.swift */,
 				29444944237F496A003E2C94 /* ContainerViewController.swift */,
 				29444946237F4A6D003E2C94 /* MapViewController.swift */,
-				29444948237F4B34003E2C94 /* TableVIewController.swift */,
+				2944494C237FCBDB003E2C94 /* TableViewController.swift */,
+				2944494E23889878003E2C94 /* TableViewCell.swift */,
+				2944497F23911068003E2C94 /* AddLocationViewController.swift */,
+				29444986239152B0003E2C94 /* ConfirmLocationViewController.swift */,
 			);
 			name = Controller;
 			path = ../Controller;
@@ -144,6 +155,7 @@
 				2944493C237EE925003E2C94 /* StudentLocation.swift */,
 				29444910237AFD64003E2C94 /* AppDelegate.swift */,
 				29444937237D302C003E2C94 /* accountInfo.swift */,
+				2944498123911474003E2C94 /* Extensions */,
 				29444939237D318C003E2C94 /* Network */,
 			);
 			path = Model;
@@ -154,9 +166,17 @@
 			children = (
 				2944493A237D319E003E2C94 /* Api.swift */,
 				2944493E237EF860003E2C94 /* Constants.swift */,
-				29444940237F47F2003E2C94 /* Parser.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		2944498123911474003E2C94 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				294449822391148C003E2C94 /* UIViewController.swift */,
+				294449842391149D003E2C94 /* FirstResponder.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,17 +281,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				294449832391148C003E2C94 /* UIViewController.swift in Sources */,
 				29444913237AFD64003E2C94 /* LoginViewController.swift in Sources */,
 				2944493D237EE926003E2C94 /* StudentLocation.swift in Sources */,
 				29444945237F496A003E2C94 /* ContainerViewController.swift in Sources */,
+				29444987239152B0003E2C94 /* ConfirmLocationViewController.swift in Sources */,
 				29444938237D302C003E2C94 /* accountInfo.swift in Sources */,
 				29444947237F4A6D003E2C94 /* MapViewController.swift in Sources */,
+				294449852391149D003E2C94 /* FirstResponder.swift in Sources */,
+				2944498023911069003E2C94 /* AddLocationViewController.swift in Sources */,
 				2944494B237F56EF003E2C94 /* LocationsData.swift in Sources */,
+				2944494D237FCBDB003E2C94 /* TableViewController.swift in Sources */,
 				2944493B237D319E003E2C94 /* Api.swift in Sources */,
 				29444911237AFD64003E2C94 /* AppDelegate.swift in Sources */,
+				2944494F23889878003E2C94 /* TableViewCell.swift in Sources */,
 				2944493F237EF860003E2C94 /* Constants.swift in Sources */,
-				29444941237F47F2003E2C94 /* Parser.swift in Sources */,
-				29444949237F4B34003E2C94 /* TableVIewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
